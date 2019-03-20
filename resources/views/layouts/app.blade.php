@@ -8,8 +8,7 @@
     </head>
     <body>
         @include('inc.navbar') 
-        <hr>
-        <div class="container">
+        <div class="container space-top">
             @yield('content')
         </div>
     </body>
